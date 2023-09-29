@@ -50,9 +50,14 @@
   padding :10px 20px;
   background-color: #1E73BE;
   outline: 0;
+  border: 0;
   color: #fff; 
   position: absolute;
   left: 1215px;
+}
+
+.info button:hover{
+  cursor: pointer;
 }
 
 .top{
