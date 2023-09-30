@@ -122,17 +122,25 @@
 
 
 
-.options a:hover{
+.options:hover{
   color:#ffcc00;
+  display: flex;
+  position: absolute;
+  left: 9%;
+  background-color: #252525;
+  transition: height 0.5s;
+
 }
 
 .about-btn:hover + .options{
   display: flex;
   position: absolute;
-  left: 12%;
+  left: 9%;
   background-color: #252525;
   transition: height 0.5s;
 }
+
+
 
 .dep-options {
   display: none;
@@ -152,6 +160,13 @@
 
 }
 
+.dep-options:hover{
+  color:#ffcc00;
+  display: flex;
+  position:absolute;
+  background-color: #252525;
+}
+
 .aca-content{
   display: none;
 }
@@ -166,6 +181,13 @@
   background-color: #252525;
 }
 
+
+.aca-content:hover{
+  color:#ffcc00;
+  display: flex;
+  position:absolute;
+  background-color: #252525;
+}
 /* .adm-btn{
   color: red;
 } */
@@ -187,6 +209,14 @@
   display: flex;
   position:absolute;
   background-color: #252525;
+}
+
+.adm-content:hover{
+  color:#ffcc00;
+  display: flex;
+  position:absolute;
+  background-color: #252525;
+
 }
 
 
@@ -211,6 +241,17 @@
   background-color: #252525;
 }
 
+.rnd-content:hover{
+  color:#ffcc00;
+  display: flex;
+  position:absolute;
+  background-color: #252525;
+
+}
+
+
+
+
 
 .ach-content{
   display: none;
@@ -224,6 +265,14 @@
   display: flex;
   position:absolute;
   background-color: #252525;
+}
+
+.ach-content:hover{
+  color:#ffcc00;
+  display: flex;
+  position:absolute;
+  background-color: #252525;
+
 }
 
 

@@ -58,6 +58,9 @@
 
 .info button:hover{
   cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  border: 2px #1E73BE solid;
 }
 
 .top{
@@ -119,6 +122,8 @@
 
 .bottomButton:hover{
    color: black;
+   border: #000 1px solid;
+   
 }
 
 .top-3{

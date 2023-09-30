@@ -120,6 +120,16 @@
   display: none;
 }
 
+.options:hover{
+  color:#ffcc00;
+  display: flex;
+  position: absolute;
+  left: 9%;
+  background-color: #252525;
+  transition: height 0.5s;
+
+}
+
 
 
 .options a:hover{
@@ -129,7 +139,7 @@
 .about-btn:hover + .options{
   display: flex;
   position: absolute;
-  left: 12%;
+  left: 9%;
   background-color: #252525;
   transition: height 0.5s;
 }
@@ -144,6 +154,12 @@
   padding: 10px;
 }
 
+.dep-options:hover{
+  color:#ffcc00;
+  display: flex;
+  position:absolute;
+  background-color: #252525;
+}
 
 .dep-btn:hover +.dep-options{
   display: flex;
@@ -161,6 +177,15 @@
   padding: 10px;
 }
 .aca-btn:hover + .aca-content{
+  display: flex;
+  position:absolute;
+  background-color: #252525;
+
+
+}
+
+.aca-content:hover{
+  color:#ffcc00;
   display: flex;
   position:absolute;
   background-color: #252525;
@@ -189,6 +214,13 @@
   background-color: #252525;
 }
 
+.adm-content:hover{
+  color:#ffcc00;
+  display: flex;
+  position:absolute;
+  background-color: #252525;
+
+}
 
 
 
@@ -211,6 +243,13 @@
   background-color: #252525;
 }
 
+.rnd-content:hover{
+  color:#ffcc00;
+  display: flex;
+  position:absolute;
+  background-color: #252525;
+
+}
 
 .ach-content{
   display: none;
@@ -224,6 +263,14 @@
   display: flex;
   position:absolute;
   background-color: #252525;
+}
+
+.ach-content:hover{
+  color:#ffcc00;
+  display: flex;
+  position:absolute;
+  background-color: #252525;
+
 }
 
 
