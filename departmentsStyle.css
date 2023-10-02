@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1{
+  text-align: center;
+  padding: 80px 0 40px;
+  background-color: #262B31;
+  color: #fff;
+}
+
+.departmentsName{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 70px 0;
+}
+  
+.branch{
+  color: #000;
+  
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ffcc00;
+  outline: none;
+  border-radius: 6px;
+  border: none;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.civil{
+  padding-right: 155px;
+}
+
+.it{
+  padding-right: 92px;
+}
+
+.en{
+  padding-right: 92px;
+}
+
+.mca{
+  padding-right: 155px;
+}
+
+.me{
+  padding-right: 140px;
+}
+
+.branch:hover{
+  color: #ffcc00;
+  background-color: #fff;
+  border: solid 1px #ffcc00;
+  cursor: pointer;
+}
+
+.pageBottom{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #22252c;
+  padding: 40px;
+  color: #c4c4c4;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.adm{
+  color:#ffcb00;
+}
+
+ul{
+  margin-left: 40px;
+}

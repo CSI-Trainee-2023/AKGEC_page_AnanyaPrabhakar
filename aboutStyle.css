@@ -13,7 +13,7 @@
   background-color: #262B31;
 }
 
-.sec-heading{
+.secondryHeading{
   text-align: center;
   margin: 30px 0;
   /* font-weight: 600; */
@@ -31,7 +31,7 @@
   
 }
 
-.content-2{
+.highlightsSection{
   padding-left: 220px;
   padding-bottom: 60px;
   
@@ -39,12 +39,12 @@
   background-color: #f5f5f5;
 }
 
-.thr-heading{
+.highlightsHeading{
   font-size: 25px;
   padding: 50px 0 30px 0;
 }
 
-.point-1{
+.milestoneHeading{
   border: none;
   /* display: block; */
   padding: 15px 950px 15px 10px;
@@ -56,7 +56,7 @@
 }
 
 
-.point-2{
+.innovativeProjectsHeading{
   border: none;
   /* display: block; */
   padding: 15px 740px 15px 10px;
@@ -68,7 +68,7 @@
 }
 
 
-.point-3{
+.recordsByStudentsHeading{
   border: none;
   /* display: block; */
   padding: 15px 580px 15px 10px;
@@ -79,24 +79,20 @@
   background-color: #ffcc00;
 }
 
-.point:hover{
+/* .highlights:hover{
   cursor: pointer;
-}
+} */
 
 .list{
-  display: flex;
-  background-color: #f5f5f5;
-  justify-content: center;
-  color: #727272;
   display: none;
-  transition: max-height 0.5s ;
+  
 }
 
 .first{
   width: 33%;
 }
 
-.point-1:hover + .list{
+.milestoneHeading:hover +.list{
   display: flex;
   position: absolute;
   background-color: #f5f5f5;
